@@ -9,11 +9,7 @@ tags: [poker]
 
 So I decided to play poker with friends. But my friends don't know texas hold'em poker rules very well. So I started to Google image and ... I only found charts like this one:
 
-
-<div style="text-align:center; margin-top: 2em; margin-bottom: 2em">
-    <img src="https://www.pokcas.com/wp-content/uploads/2021/01/poker-hand-ranking.jpg" alt="ugly poker charts example" width="300px">
-    <div class="caption">Ugly poker charts example</div>
-</div>
+![](/assets/images/ugly-poker-hand-ranking.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 Those kind of charts are okay for a computer use, but they are not clear (IMHO) and in the majority of cases impossible to print in grayscale. When I add the constraint that I want one in French, it's almost impossible to find.
 

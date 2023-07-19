@@ -37,7 +37,7 @@ Les programmes utilisés pour la création sont :
 *   K3b 0.11.20 pour graver l'image
 *   ~~Xine v0.99.3~~ [2023 update: [VLC](https://www.videolan.org/vlc/index.fr.html)] pour tester le DVD depuis le disque dur (sans le graver)
 
-![](/assets/images/dvd_tuto/img1.png)
+![](/assets/images/dvd_tuto/img1.png){:.centered}
 
 2.1 Préparation des vidéos
 --------------------------
@@ -74,7 +74,7 @@ Avidemux est un logiciel libre sous Linux (je ne sais pas s'il est porté sous d
 *   Charger la vidéo source
 *   Configurer le logiciel comme suit :
 
-    ![](/assets/images/dvd_tuto/schema_general.png)
+    ![](/assets/images/dvd_tuto/schema_general.png){:.centered}
 
 
 1.  Format de compression vidéo : DVD
@@ -91,7 +91,7 @@ Ici est le point où la documentation sur internet se fait rare et floue. Je vai
 
 **Figure:** Configuration du compresseur vidéo
 
-![](/assets/images/dvd_tuto/schema_general1.png)
+![](/assets/images/dvd_tuto/schema_general1.png){:.centered}
 
 **Encoding type**
 
@@ -163,7 +163,7 @@ Il faut donc rajouter 132 pixels en hauteur, c'est à dire ![$\frac{132}{2}=66$]
 
 **Figure:** Menu des filtres vidéo
 
-![Image schema_general3](/assets/images/dvd_tuto/schema_general3.png)
+![Image schema_general3](/assets/images/dvd_tuto/schema_general3.png){:.centered}
 
 #### 2.1.2.5 Encodage
 
@@ -181,13 +181,14 @@ Pendant l'encodage des vidéos, nous avons tout le temps de créer les élément
 
 **Figure:** Les deux fichiers définissant graphiquement un menu
 
-![Image petit_exemple_menu](/assets/images/dvd_tuto/petit_exemple_menu.png)![Image petit_exemple_menu_h](/assets/images/dvd_tuto/petit_exemple_menu_h.png)
+![Image petit_exemple_menu](/assets/images/dvd_tuto/petit_exemple_menu.png){:.centered}
+![Image petit_exemple_menu_h](/assets/images/dvd_tuto/petit_exemple_menu_h.png){:.centered}
 
 Le premier fichier contient la partie fixe du graphique. Le deuxième est un fichier principalement transparent contenant les pixels à afficher par dessus le premier lors de sélection d'éléments. En fait, on peut donner un troisième fichier à spumux basé sur le même principe que le deuxième contenant l'image à afficher durant le court instant de chargement du film, lorsqu'on clique. Personnellement, je n'utilise pas cette troisième image.
 
 **Figure:** Affichage lors de la sélection du premier élément du menu
 
-![Image petit_exemple_sel1](/assets/images/dvd_tuto/petit_exemple_sel1.png)
+![Image petit_exemple_sel1](/assets/images/dvd_tuto/petit_exemple_sel1.png){:.centered}
 
 Bien entendu, les fichiers doivent avoir une taille standard : ![$\frac{4}{3}$](/assets/images/dvd_tuto/img4.png) ou ![$\frac{16}{9}$](/assets/images/dvd_tuto/img5.png) pour être affiché dans leur intégralité et dans des proportions correctes, ce qui n'est pas le cas dans cet exemple.
 
@@ -201,7 +202,7 @@ Le point délicat ici est que la norme DVD précise que la deuxième image doit 
 
     **Figure:** Affichage lors de la sélection du premier élément du menu
 
-    ![Image gimp1](/assets/images/dvd_tuto/gimp1.png)
+    ![Image gimp1](/assets/images/dvd_tuto/gimp1.png){:.centered}
 
     *   Le fond
     *   Les éléments sélectionés
@@ -213,7 +214,7 @@ Le point délicat ici est que la norme DVD précise que la deuxième image doit 
 
     **Figure:** Passage en mode couleurs indexées
 
-    ![Image gimp2](/assets/images/dvd_tuto/gimp2.png)
+    ![Image gimp2](/assets/images/dvd_tuto/gimp2.png){:.centered}
 
 5.  Enregistrer le résultat sous menu\_h.png
 
@@ -237,14 +238,14 @@ Pour générer rapidement ces lignes, j'utilise 'Q' DVD-Author :
 
     **Figure:** Délimitation des composants avec QDVDAuthor
 
-    ![Image dvdauthor1](/assets/images/dvd_tuto/dvdauthor1.png)
+    ![Image dvdauthor1](/assets/images/dvd_tuto/dvdauthor1.png){:.centered}
 
 3.  Pour chaqune d'entre elles, en faire un boutton : clique boutton droit  ![$\triangleright$](/assets/images/dvd_tuto/img10.png) define as button.
 4.  Il ne reste plus qu'à effectuer un copier-coller du texte XML disponible dans l'onglet XML out en sélectionnant Main Menu VMGM vers le fichier menu.xml.
 
 **Figure:** XML généré par QDVDAuthor
 
-![Image dvdauthor2](/assets/images/dvd_tuto/dvdauthor2.png)
+![Image dvdauthor2](/assets/images/dvd_tuto/dvdauthor2.png){:.centered}
 
 2.3 Finalisation du DVD
 -----------------------

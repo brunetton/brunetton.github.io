@@ -18,4 +18,14 @@ Long story in short: I started form this [caPiture](https://github.com/danielapp
 
 I was very happy to be able to use my tiny little Pi mini computer as a portable multitrack recorder, and the overall sound quality is more than satisfying !
 
+## Photo
+
 ![](/assets/images/XR18-1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+
+## Result
+
+<div>
+<video controls width="400" style="display:block; margin:auto;">
+    <source src="https://scontent.cdninstagram.com/v/t50.33967-16/447764541_446157378040527_6322019536104984102_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJybHIiOjMwMCwicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoicHJvZ3Jlc3NpdmVfaDI2NC1iYXNpYy1nZW4yXzM2MHAiLCJ2aWRlb19pZCI6NDAwNDUzMDgyOTY4NzAwfQ%3D%3D&_nc_ohc=lcAEg4RjUaIQ7kNvgEsHmyd&_nc_ht=scontent-cdg4-3.xx&gid=AXI6zfzS9ZlSm46dB7SC5vT&oh=00_AYCV5S8u3XOZoZScZKo8iU-SMv1Rgg8aFYfPk5thzOjsbA&oe=668BA6F8" />
+</video>
+</div>

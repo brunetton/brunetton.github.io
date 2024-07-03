@@ -16,4 +16,6 @@ There are plenty of pianos around, mainly in big cities (librairies, cafes, rest
 
 Now there are plenty of contribution all other the world :)
 
-Github project: https://github.com/brunetton/OpenPianosMap
+Interactive map: <https://www.mapcontrib.xyz/t/e5c83c-OpenPianosMap>
+
+Github project: <https://github.com/brunetton/OpenPianosMap>
